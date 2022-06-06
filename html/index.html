@@ -41,6 +41,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="../html/data_export.html">Data</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/observations.html">Observable Trends</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -57,7 +60,36 @@
                  <h3>Summary: Latitude vs. X</h3>  
                  <hr>
 
-                 <img class="left-image img-fluid" src="../Resources/Fig1.png">
+                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../Resources/Images/Latitude_vs_Temperature_Plot.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../Resources/Images/Latitude_vs_Humidity_Plot.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../Resources/Images/Latitude_vs_Cloudiness_Plot.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../Resources/Images/Latitude_vs_WindSpeed_Plot.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
 
                     <p>
                     The purpose of this project was to analyze how weather changes
@@ -78,35 +110,35 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="box">
                  <h3>Visualizations</h3>  
                     <hr>
 
                     <div class="row">
-                        <div class="col-md-6">
-                            <a href="../html/lat_temp.html"><img class="right-image img-fluid img-thumbnail" src="../Resources/Fig1.png"></a>
-                        </div>
+                            <div class="col-md-6">
+                                <a href="../html/lat_temp.html"><img class="right-image img-fluid img-thumbnail" src="../Resources/Images/Latitude_vs_Temperature_Plot.png"></a>
+                            </div>
 
-                        <div class="col-md-6">
-                            <a href="../html/lat_humid.html"><img class="right-image img-fluid img-thumbnail" src="../Resources/Fig2.png"></a>
-                        </div>
+                            <div class="col-md-6">
+                                <a href="../html/lat_humid.html"><img class="right-image img-fluid img-thumbnail" src="../Resources/Images/Latitude_vs_Humidity_Plot.png"></a>
+                            </div>
 
-                        </div> 
+                            </div> 
                         <div class="row">
                             <div class="col-md-6">
-                                <a href="../html/lat_cloud.html"></a><img class="right-image img-fluid img-thumbnail" src="../Resources/Fig3.png"></a>
+                                <a href="../html/lat_cloud.html"><img class="right-image img-fluid img-thumbnail" src="../Resources/Images/Latitude_vs_Cloudiness_Plot.png"></a>
                             </div>
     
                             <div class="col-md-6">
-                                <a href="../html/lat_wind.html"><img class="right-image img-fluid img-thumbnail" src="../Resources/Fig4.png"></a>
+                                <a href="../html/lat_wind.html"><img class="right-image img-fluid img-thumbnail" src="../Resources/Images/Latitude_vs_WindSpeed_Plot.png"></a>
                             </div>
     
                     </div> 
                 </div>         
             </div>
 
-          <div class="col-md-2">
+          <div class="col-md-1">
 
           </div>
         
