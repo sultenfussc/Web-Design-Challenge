@@ -16,10 +16,21 @@
 
 .carousel {
     width: 350px;
-    height: 250px;
+    height: 265px;
     float: left;
     margin-right: 10px;
 }
+
+.carousel-control-prev-icon {
+    margin-right: 20px;
+    background-image: url("Resources/equatorsign-removebg-preview\ \(1\).png");
+}
+
+.carousel-control-next-icon {
+    background-image: url("Resources/equatorsign-removebg-preview\ \(1\).png");
+    margin-left: 20px;
+}
+
 .left-image{
     width: auto;
     height: auto;
