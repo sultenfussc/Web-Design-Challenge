@@ -116,3 +116,23 @@ h5 {
   tr {
     font-size: x-small;
   }
+
+  @media (max-width: 600px) {
+
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .navbar li a {
+      color: lightpink;
+    }
+  
+    h5 {
+        margin-top: 20px;
+        color:lightseagreen;
+        text-align: left;
+        font-size: small;
+        font-family: 'Times New Roman', serif;
+    }
+  
+  }
