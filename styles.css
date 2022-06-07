@@ -45,14 +45,13 @@
 }
 .right-image {
     width: 150px;
-    height: 120px;
+    height: auto;
     margin-top: 20px;
-    margin-left: 10px;
 }
 
 .center-image {
     width: 550px;
-    height: 450px;
+    height: auto;
     margin-left: 20px;
     margin-bottom: 20px
 }
@@ -63,7 +62,7 @@
 
 .comp-image {
     width: 550px;
-    height: 350px;
+    height: auto;
 }
 
 h3 {
