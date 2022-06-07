@@ -14,10 +14,6 @@
     font-family: 'Times New Roman', serif;
 }
 
-.by .bi-compass {
-    color: lightseagreen
-}
-
 .carousel {
     width: 350px;
     height: 265px;
@@ -117,10 +113,18 @@ h5 {
     font-size: x-small;
   }
 
+  .bi {
+    color:lightseagreen;
+  }
+
+  .bi-globe {
+      color: white !important;
+  }
+
   @media (max-width: 600px) {
 
     .navbar-brand {
-        background-color: lightpink;
+        background-color: lightcoral;
         color: white;
         padding-left: 10px;
         padding-right: 10px;
@@ -135,12 +139,33 @@ h5 {
         margin-right: 10px;
     }
 
+    h3 {
+        margin-top: 30px;
+        color:lightcoral;
+        font-weight: bold;
+        font-family: 'Times New Roman', serif;
+    }
+    
+    h4 {
+        margin-top: 30px;
+        color:lightcoral;
+        text-align: center;
+        font-size: medium;
+        font-weight: bold;
+        font-family: 'Times New Roman', serif;
+    }
+
     h5 {
         margin-top: 20px;
-        color:lightseagreen;
+        color:lightcoral;
         text-align: left;
         font-size: small;
         font-family: 'Times New Roman', serif;
     }
   
+    .bi {
+        color:lightcoral;
+      }
   }
+
+  
