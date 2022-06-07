@@ -14,23 +14,11 @@
     font-family: 'Times New Roman', serif;
 }
 
-.by .bi-compass {
-    color: lightseagreen
-}
-
 .carousel {
     width: 350px;
-    height: 265px;
+    height: 250px;
     float: left;
     margin-right: 10px;
-}
-
-.carousel-control-prev-icon {
-    margin-right: 20px;
-}
-
-.carousel-control-next-icon {
-    margin-left: 20px;
 }
 
 .left-image{
@@ -43,6 +31,7 @@
 .right-image:hover{
     outline: 2px solid lightseagreen; 
 }
+
 .right-image {
     width: 150px;
     height: 120px;
